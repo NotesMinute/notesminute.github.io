@@ -1,0 +1,15 @@
+[
+{
+
+    "topic": "Sandwich Construction",
+    "share": "https://api.whatsapp.com/send?text=https://www.notesminute.com/department/engineering/aeronautical-engineering/sandwich-construction",
+    "default": "sandwich-construction",
+    "available": "100 %"
+},
+{
+
+    "topic": "Failure modes of Sandwich construction",
+    "share": "https://api.whatsapp.com/send?text=https://www.notesminute.com/department/engineering/aeronautical-engineering/failure-modes-of-sandwich-construction",
+    "default": "failure-modes-of-sandwich-construction",
+    "available": "100 %"
+}]

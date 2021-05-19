@@ -1,0 +1,492 @@
+/* Drop down menu */
+
+@media all and (min-width: 360px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {}
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+/* divider */
+
+hr.divider {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #18325c;
+}
+
+/* team name and designation text block */
+/*.text-block {
+    position: relative;
+    bottom: 20px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100px;
+    width: 500px;
+}*/
+
+
+/* zoom */
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/* scroll indicator */
+.scroll-progress-bar {
+    /*margin-bottom: 70px;*/
+    width: 0%;
+    height: 4px;
+    background-color: #18325c;
+    position: fixed;
+    left: 0px;
+    top:0%;
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #18325c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #18325c;
+}
+
+
+/*************** Carousel slide title and subtitle   ***********************/
+@media (max-width: 576px) {
+    .car-title {
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 25px;
+        line-height: 28px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .car-title {
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* font for carousel heading */
+    .car-title {
+        /*border-right: solid 3px rgba(0,255,0,.75);*/
+        /*white-space: nowrap;*/
+        /*overflow: hidden;*/
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 55px;
+        line-height: 1;
+        margin: 0;
+        padding: 10px 0 10px;
+        clear: both;
+    }
+}
+
+@media (max-width: 576px) {
+    .car-subtitle {
+        font-weight: normal;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .car-subtitle {
+        font-weight: normal;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* font for carousel heading */
+    .car-subtitle {
+        font-weight: normal;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 22px;
+        line-height: 1;
+        margin: 0;
+        padding: 10px 0 10px;
+        clear: both;
+    }
+}
+
+/*********** Carousel slid-1 animation ***********/
+
+@media (max-width: 576px) {
+    .car-title-1 {
+        border-right: solid 3px rgba(0, 255, 0, .75);
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 25px;
+        line-height: 1px;
+        margin-left: 20%;
+        padding: 10px 0 10px;
+        clear: both;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .car-title-1 {
+        border-right: solid 3px rgba(0, 255, 0, .75);
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 35px;
+        line-height: 1px;
+        margin-left: 30%;
+        padding: 10px 0 10px;
+        clear: both;
+
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* font for carousel heading */
+    .car-title-1 {
+        border-right: solid 3px rgba(0, 255, 0, .75);
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 55px;
+        line-height: 1;
+        margin-left: 30%;
+        padding: 10px 0 10px;
+        clear: both;
+    }
+}
+
+
+/* Animation */
+p.car-title-1.car-anim {
+    animation: animated-text 3s steps(13, end) 1s 1 normal both,
+        animated-cursor 600ms steps(11, end) infinite;
+}
+
+/******* text animation *******/
+@media (max-width: 576px) {
+    @keyframes animated-text {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 155px;
+        }
+    }
+
+    /* cursor animations */
+
+    @keyframes animated-cursor {
+        from {
+            border-right-color: rgba(0, 255, 0, .75);
+        }
+
+        to {
+            border-right-color: transparent;
+        }
+    }
+
+}
+
+@media (min-width: 768px) {
+    @keyframes animated-text {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 240px;
+        }
+    }
+
+    /* cursor animations */
+
+    @keyframes animated-cursor {
+        from {
+            border-right-color: rgba(0, 255, 0, .75);
+        }
+
+        to {
+            border-right-color: transparent;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    @keyframes animated-text {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 365px;
+        }
+    }
+
+    /* cursor animations */
+
+    @keyframes animated-cursor {
+        from {
+            border-right-color: rgba(0, 255, 0, .75);
+        }
+
+        to {
+            border-right-color: transparent;
+        }
+    }
+}
+
+
+
+
+/**************** custom button ******************/
+.btn-cst {
+    padding: 1rem 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 2.25rem;
+}
+
+
+
+
+/************ Toggle button **************/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* price table */
+
+.columns {
+  float: left;
+  width: 16.6%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 16px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 13px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+
+
+/* Tooltip */
+.tooltip {
+  /*position: relative;*/
+  /*display: inline-block;*/
+  /*border-bottom: 1px dotted black;*/
+}
+
+span.tooltips .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+span.tooltips:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+/*intern project section*/
+.projects-section {
+  padding: 10rem 0;
+}
+.projects-section .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%;
+  }
+}
+
+
+.bg-black {
+  background-color: #000000 !important;
+}
+
+.projects-section .featured-text-right {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .projects-section .featured-text-right {
+    padding: 0 0 0 2rem;
+    border-right: 0.5rem solid #64a19d;
+  }
+}

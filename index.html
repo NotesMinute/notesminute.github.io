@@ -2,1805 +2,284 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Product Labs">
-    <meta name="author" content="Naveen Krishnamurthy">
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>Unlearn with Side-Headings and Quick-Tips</title>
-
-    <link rel="icon" 
-      type="image/png" 
-      href="/img/Ladder_Bulb_Logo.png" />
-
-
-	
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/LadderMinds-Creative.css" type="text/css">
-
-	<script src="js/analytics.js"></script>	
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
-	<script type="text/javascript" src="js/map.js"></script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link rel="icon" type="image/x-icon" href="assets/img/logos/ladder_bulb_logo.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="assets/js/lib/fontawesome-all.js"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="assets/css/lib/aos.css">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <!-- App CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/js/analytics.js"></script>
 </head>
 
 <body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                	<img src="img/NotesMinute_162x25.png" alt="NotesMinute">
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="http://www.notesminute.com">About</a>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="home"><img src="assets/img/logos/notesminute.png" alt="..." /></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="home">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> About </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about/story">Story</a></li>
+                            <li><a class="dropdown-item" href="about/team">Team </a></li>
+                            <li><a class="dropdown-item" href="about/contributors">Contributors </a></li>
+                        </ul>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="people.html" target="_blank">People</a>
-                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Departments </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="department/engineering">Engineering</a></li>
+                            <li><a class="dropdown-item" href="department/arts-science">Arts & Science</a></li>
+                            <li><a class="dropdown-item" href="department/law">Law</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+            <!-- Scroll Indicator Progress Bar -->
+            <div class="scroll-progress-bar" id="scrollIndicator">
+            </div>
         </div>
-        <!-- /.container-fluid -->
     </nav>
-
-    <header class="index-header">
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Path to learn is Unlearn..!!</h1>
-                <hr>
-                <p>We are making learning simple using notes minute.</p>
-                <h3>
-                	Can you please make us grow stronger by taking this 2 minute survey?
-                	<br/><br/>
-                	<a href="https://docs.google.com/forms/d/e/1FAIpQLSdBXy1X3MHxA5oDQ37N5HjXDZOYVzARw1UO6E6quXGT1-G7hA/viewform" class="btn btn-primary btn-xl page-scroll" target="_blank">Oh Yes, I Can.</a>
-                	<a href="#about" class="btn btn-warning btn-xl page-scroll">Later Please.</a>
-                </h3>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/img/header.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title-1 car-anim">Path To Learn</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">We are making learning simple</p>
+                        <p class="text-center">Apply for Internship <a class="text-white" href="intern"> click here..</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/notes6.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title">Easy and Accessible Note Tips to all Students</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">Aligned to: <a class="text-white" href="https://sdgs.un.org/goals/goal4" target="_blank"> #unsdggoal4</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/notes2.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title">360 Degree Study Circles Covered</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">Aligned to: <a class="text-white" href="https://sdgs.un.org/goals/goal4" target="_blank"> #unsdggoal4</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/notes3.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title">
+                        Mission to attain Universal Literacy by making learning easy</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">Aligned to:<a class="text-white" href="https://sdgs.un.org/goals/goal4" target="_blank"> #unsdggoal4</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
-
-    <section class="bg-primary" id="about">
+    <!-- About Section -->
+    <section class="page-section" id="services">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="text-faded">
-                    	While we make the learning experience simple and fun, 
-                    	<br />we have something related to the <a href="#Notes" class="btn btn-success btn-sm">Aeronautical Studies</a> that you can go through.
-                    </p>
-                    <a href="#Notes" class="btn btn-default btn-xl">Get Started!</a>
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">What is NotesMinute?</h2>
+                <hr class="divider">
+                <h3 class="section-subheading text-muted">
+                    The aim is to have universal literacy by making learning easy
+                </h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                    <div class="mt-5 shadow p-3 mb-5 bg-white rounded zoom">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <!-- <h4 class="my-3">E-Commerce</h4> -->
+                        <p class="text-muted mt-2">NotesMinute aims to make remembering notes easier by providing pointers in the form of headings and small tips about the topic</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                    <div class="mt-5 shadow p-3 mb-5 bg-white rounded zoom">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <!-- <h4 class="my-3">Responsive Design</h4> -->
+                        <p class="text-muted mt-2">The access to the notes are available to all students in the Technology and Vocational Study areas</p><br>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                    <div class="mt-5 shadow p-3 mb-5 bg-white rounded zoom">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-book-reader fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <!-- <h4 class="my-3">Web Security</h4> -->
+                        <p class="text-muted mt-2">The access to notes will help the remembering notes and making learning easier</p><br>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="Notes">
-                <div class="row">
-			<div class="col-lg-12 text-center">
-				<aside class="banner">
-					<div class="container">
-					  <div class="row">
-					    <div class="col-lg-12 my-auto">
-						<h2>Aeronautical Studies</h2> 
-						<p>#UnlearningIsFun #NotesMinuteFlyHigh</p>
-					    </div>
-					  </div>
-					</div>
-					<!-- /.container -->
-				</aside>
-			</div>
-		</div>
+    <!--UNSDG  -->
+    <section class="page-section">
         <div class="container">
-		<div class="row">
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='sandwich_construction.html'>Sandwich Construction</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='core_material_.html'>Core material</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='skin_material.html'>Skin Material</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='fiber.html'>Fiber</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='open_molding.html'>Open molding</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='close_molding.html'>Close molding</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='glass_fiber.html'>Glass fiber</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='failure_modes_of_sandwich_construction.html'>Failure modes of Sandwich construction</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='compression_moulding_.html'>Compression Moulding</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Mach__number.html'>Mach number</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Divergence.html'>Divergence</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Shock_wave.html'>Shock wave</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Swept_wings.html'>Swept wings</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Transonic_speed.html'>Transonic speed</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Wing_tips.html'>Wing tips</a>
-     
-</h3>
-                
-</div>
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Camber.html'>Camber</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Thickness.html'>Thickness</a>
-     
-</h3>
-                
-</div>
-			
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='bolts_.html'>Bolts</a>
-     
-</h3>
-                
-</div>
-
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Induction(or)indraft_Tunnel.html'>Induction(or)indraft Tunnel</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Hypersonic_tunnels_.html'>Hypersonic tunnels</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Helium_Tunnel.html'>Helium Tunnel</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Gun_Tunnel.html'>Gun Tunnel</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Shock_Tubes.html'>Shock Tubes</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Flow_Visualization.html'>Flow Visualization</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Mach_Zender_Interferrometer.html'>Mach Zender Interferometer</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Holographic_Interferometer.html'>Holographic Interferometer</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Schlieren_system.html'>Schlieren system</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Oxidation.html'>Oxidation</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Pilling-Bedworth_ratio.html'>Pilling-Bedworth ratio</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Crystal_defects.html'>Crystal defects</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Historical_Development_of_POM.html'>Historical Development of POM</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Management.html'>Management</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Henry_Fayol_Contribution_.html'>Henry Fayol Contribution</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Taylor_Contribution.html'>Taylor Contribution</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Function_of_management_.html'>Function of management</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Types_of_Buisiness_Organisation.html'>Types of Business Organisation</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Ignition_system_in_rockets.html'>Ignition system in rockets</a>
-     
-</h3>
-                
-</div>
-
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Continuity_Equation.html'>Continuity Equation</a>
-     
-</h3>
-                
-</div>
-
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Stream_Line.html'>Streamline</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Potential_Line.html'>Potential Line</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Flow_Net.html'>Flow Net</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='StreamTube.html'>StreamTube</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Path_Line.html'>Path Line</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Streak_line.html'>Streak line</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Stream_Function.html'>Stream Function</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Vorticity.html'>Vorticity</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Magnus_Effect.html'>Magnus Effect</a>
-     
-</h3>
-                
-</div>
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Displacement_Thickness.html'>Displacement Thickness</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Momentum_Thickness.html'>Momentum Thickness</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='Thin_Airfoil_Theory.html'>Thin Airfoil Theory</a>
-     
-</h3>
-                
-</div>
-
-
-
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='necessity_of_civil_aircraft_maintenance.html'>Necessity of civil aircraft Maintenance</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='primary_flight_control_system.html'>Primary flight control system</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='touch_screen.html'>Touch Screen</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='light_emitting_diode_(led).html'>Light Emitting Diode (LED)</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='communication_system.html'>Communication system</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='hands_on_throttle_and_stick_(hotas).html'>Hands On Throttle And Stick (HOTAS)</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='multi-function_display(mfd).html'>Multi-Function Display(MFD)</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='navigation_system.html'>Navigation system</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='liquid_crystal_display_(lcd).html'>Liquid Crystal Display (LCD)</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='conductors.html'>Conductors</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='bound_electrons.html'>Bound Electrons</a>
-     
-</h3>
-                
-</div>
-
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='current_density_(j).html'>Current Density (J)</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='conducting_materials.html'>CONDUCTING MATERIALS</a>
-     
-</h3>
-                
-</div>
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='classical_free_electron_theory.html'>Classical free electron theory</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='quantum_free_electron_theory.html'>Quantum free electron theory</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='zone_theory_or_band_theory_of_solids.html'>Zone theory or band theory of solids</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='classical_free_electron_model.html'>CLASSICAL FREE ELECTRON MODEL</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='drude_lorentz_theory.html'>DRUDE LORENTZ THEORY</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='postulates_of_free_electron_theory.html'>POSTULATES OF FREE ELECTRON THEORY</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='derivation_of_electrical_conductivity.html'>DERIVATION OF ELECTRICAL CONDUCTIVITY</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='thermal_conductivity.html'>THERMAL CONDUCTIVITY</a>
-     
-</h3>
-                
-</div>
-
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='merits_of_classical_free_electron_theory.html'>MERITS OF CLASSICAL FREE ELECTRON THEORY</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='drawbacks_of_classical_free_electron_theory.html'>DRAWBACKS OF CLASSICAL FREE ELECTRON THEORY</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='quantum_theory.html'>QUANTUM THEORY</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='fermi_dirac_distribution_function.html'>FERMI DIRAC DISTRIBUTION FUNCTION</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='density_of_states.html'>DENSITY OF STATES</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='semiconducting_materials.html'>SEMICONDUCTING MATERIALS</a>
-     
-</h3>
-                
-</div>
-
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='helicopter_work.html'>Helicopter Work</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='unique_features.html'>Unique Features</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='bearings.html'>Bearings</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='elastomeric_bearings_types.html'>Elastomeric bearings types</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='roller_stacking.html'>Roller stacking</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='gears.html'>Gears</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='rotor_heads.html'>Rotor heads</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='rotor_head_maintenance.html'>Rotor head maintenance</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='tracking.html'>Tracking</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='vibration.html'>Vibration</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='blade_sweeping.html'>Blade sweeping</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='mast.html'>Mast</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='flight_control_system.html'>Flight control system</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='maintenance_and_inspection.html'>Maintenance and inspection</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='avionics.html'>Avionics</a>
-     
-</h3>
-                
-</div>
-
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='avionics_sub-systems.html'>Avionics sub-systems</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='design_objectives_for_avionics_systems.html'>Design objectives for avionics systems</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='environmental_requirements.html'>Environmental requirements</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='redundancy.html'>Redundancy</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='reliability.html'>Reliability</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='digital_computers.html'>Digital computers</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='memories.html'>Memories</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='microprocessor.html'>Microprocessor</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='engineering_mechanics.html'>Engineering mechanics</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='units.html'>Units</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='dimensions.html'>Dimensions</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='laws_of_mechanics.html'>Laws of mechanics</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='parallelogram_law_of_force.html'>Parallelogram law of force</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='triangle_law_of_forces.html'>Triangle law of forces</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='scalar_quantities.html'>Scalar quantities</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='vector_quantity.html'>Vector quantity</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='coplanar_force.html'>Coplanar force</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='non-coplanar.html'>Non-coplanar</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='non-concurrent.html'>Non-concurrent</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='resultant_forces.html'>Resultant forces</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='resolution_of_forces.html'>Resolution of forces</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='polygon_law_of_forces.html'>Polygon law of forces</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='equilibrium_forces.html'>Equilibrium forces</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='principle_of_equilibrium.html'>Principle of equilibrium</a>
-     
-</h3>
-                
-</div>
-
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='free_body_diagram.html'>Free body diagram</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='types_of_equilibrium.html'>Types of equilibrium</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='moment_of_force.html'>Moment of force</a>
-     
-</h3>
-                
-</div>
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='couple.html'>Couple</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='moment_of_a_couple.html'>Moment of a couple</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='beam.html'>Beam</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='frame.html'>Frame</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='support_reaction_of_beams.html'>Support reaction of beams</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='types_of_support.html'>Types of support</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='types_of_loads.html'>Types of loads</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='truss.html'>Truss</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='classification_of_truss.html'>Classification of truss</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='perfecr_frame.html'>Perfecr frame</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='imperfect_truss.html'>Imperfect truss</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='tension_co-efficiennt.html'>Tension co-efficiennt</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='friction_force.html'>Friction force</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='limiting_friction.html'>Limiting friction</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='co-efficient_of_friction.html'>Co-efficient of friction</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='angle_of_repose.html'>Angle of repose</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='simple_contact_friction.html'>Simple contact friction</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='rolling_resistance.html'>Rolling resistance</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='centre_of_gravity.html'>Centre of gravity</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='axis_of_symmetry.html'>Axis of symmetry</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='pappus_and_guldins_theorem.html'>Pappus and Guldins theorem</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='moment_of_inertia.html'>Moment of inertia</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='parallel_axis_theorem.html'>Parallel axis theorem</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='perpendicular_axis_theorem.html'>Perpendicular axis theorem</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='polar_moment_of_inertia.html'>Polar moment of inertia</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='radius_of_gyration.html'>Radius of gyration</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='principal_m.i.html'>Principal M.I</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='mass_m.i.html'>Mass M.I</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='types_of_plane_motion.html'>Types of plane motion</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='characterstics_of_kinematics.html'>Characterstics of kinematics</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='types_of_rectilinear_motion.html'>Types of rectilinear motion</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='retardation.html'>Retardation</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='projectile_motion.html'>Projectile motion</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='angle_of_projection.html'>Angle of projection</a>
-     
-</h3>
-                
-</div>
-
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='airframe_systems.html'>Airframe systems</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='thrust_termination_.html'>Thrust Termnation</a>
-     
-</h3>
-                
-</div>
-			
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='hard_landings_in_helicopter.html'>Hard landings in Helicopter</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='structural_components_and_materials_of_helicopter.html'>Structural components and materials of Helicopter</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='special_purpose_equipment_.html'>Special purpose equipment</a>
-     
-</h3>
-                
-</div>
-
-<div class='col-lg-3 text-center'>
-                 
-<h3>
-
-      <a href='tail_rotor_system_rigging.html'>Tail Rotor system Rigging</a>
-     
-</h3>
-                
-</div>
-
-
-                
-</div>
-
-
-			
-	<div class="col-lg-3 text-center">
-				&nbsp;
-				
-</div>
-			
-			
-		</div>		
-           <div class="row">
-               <div class="col-lg-8 col-lg-offset-2 text-center">
-				<h3>
-                	Do you have a minute to give a quick feedback / suggestion?
-                	<br/><br/>
-                	<a href="https://goo.gl/forms/Yzwx9vhIDbXruY1y1" class="btn btn-primary btn-xl page-scroll" target="_blank">Sure, here we go..</a>
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">UNSDG Goal 4</h2>
+                <hr class="divider">
+                <h3 class="section-subheading text-muted">
+                    United Nations Sustainable Development Group (UNSDG)
                 </h3>
-               	<hr />
-                   <h4>Do Get In Touch!</h4>
-                   <a href="http://www.facebook.com/NotesMinute" target="_blank">
-                   	<i class="fa fa-facebook fa-3x wow bounceIn"></i>
-                   </a>
-                   &nbsp;&nbsp;&nbsp;
-                   <a href="http://www.twitter.com/NotesMinute" target="_blank">
-                   	<i class="fa fa-twitter fa-3x wow bounceIn"></i>
-                   </a>
-               </div>
-           </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                    <div class="mt-5 shadow p-3 mb-5 bg-white rounded zoom">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-globe fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <!-- <h4 class="my-3">E-Commerce</h4> -->
+                        <p class="text-muted mt-2">We are aligned with the UNSDG Goal 4</p><br><br>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                    <div class="mt-5 shadow p-3 mb-5 bg-white rounded zoom">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop-code fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <!-- <h4 class="my-3">Responsive Design</h4> -->
+                        <p class="text-muted mt-2">Sustainable Development Goal 4 (SDG 4) is the education goal</p><br>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                    <div class="mt-5 shadow p-3 mb-5 bg-white rounded zoom">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <!-- <h4 class="my-3">Web Security</h4> -->
+                        <p class="text-muted mt-2">It aims to “ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.”</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <hr>
-    <footer>
-    	 <div class="row footer-below text-right">
-			<div class="col-lg-12 text-center">
-				<span class="MadeinIndia">
-					Inspired at <a href="http://www.srec.ac.in" target="_blank">S.L.i.M (SREC)</a> | 
-					Made in <a href="http://en.wikipedia.org/wiki/India" target="_blank">India</a>, 
-					Calibrated at <a href="http://en.wikipedia.org/wiki/Coimbatore" target="_blank">Coimbatore</a>.		
-					&nbsp;Copyright &copy; 2014 - <a href="http://www.LadderMinds.com" target="_blank">LadderMinds</a> 
-				</span>
-			</div>
+    <!-- Survey -->
+    <section class="page-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h5>Can you please make us grow stronger by taking this 2 minute survey?</h5>
+                    <a class="btn btn-primary btn-cst mt-2" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdBXy1X3MHxA5oDQ37N5HjXDZOYVzARw1UO6E6quXGT1-G7hA/viewform">Oh Yes, I Can</a>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-10 text-center">
+                    <h5>Do you have a minute to give a quick feedback / suggestion?</h5>
+                    <a class="btn btn-primary btn-cst mt-2" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdTXyHDLdonxeI3ibUsuNQo3DUDz9wB4dAOrhPvKNdf0PUYVw/viewform">Sure, Here we go</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <h5 class="text-left mt-0 text-white">Quick Links</h5>
+                    <hr class="divider ml-0 my-4">
+                    <p class="text-left"><a class="text-white" href="home">Home</a></p>
+                    <p class="text-left"><a class="text-white" href="about/story">About Us</a></p>
+                    <!-- <p class="text-left"><a class="text-white" href="department/engineering">Engineering</a></p>
+                    <p class="text-left"><a class="text-white" href="department/arts-science">Arts & Science</a></p>
+                    <p class="text-left"><a class="text-white" href="department/law">Law</a></p> -->
+                    <p class="text-left mb-5"><a class="text-white" href="#contact">Contact</a></p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <h5 class="text-left mt-0 text-white">Contact Us</h5>
+                    <hr class="divider ml-0 my-4">
+                    <p class="text-left mb-2 text-white"> 18/57 A/1, Jai Nagar,</p>
+                    <p class="text-left mb-2 text-white"> Kavundampalayam, </p>
+                    <p class="text-left mb-2 text-white"> Coimbatore - 641 030,</p>
+                    <p class="text-left mb-4 text-white"> Tamil Nadu</p>
+                    <p class="text-left mb-2 text-white">+91 422 43 80 500</p>
+                    <p class="text-left mb-2 text-white">+91 94456 80500</p>
+                    <p class="text-left mb-4"><a class="text-white" href="mailto:info@notesminute.com">info@notesminute.com</a></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h5 class="text-left mt-0 text-white">NotesMinute</h5>
+                    <hr class="divider ml-0 my-4">
+                    <p class="text-white">
+                        NotesMinute aims to make remembering notes easier by providing pointers in the form of headings and small tips about the topic
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-left">
+                    Copyright &copy;Notesminute
+                    <!-- This script automatically adds the current year to your website footer-->
+                    <!-- (credit: https://updateyourfooter.com/)-->
+                    <script>
+                    document.write(new Date().getFullYear());
+                    </script>
+                </div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="http://www.twitter.com/NotesMinute"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="http://www.facebook.com/NotesMinute"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-right">
+                    <a class="mr-3" target="_blank" href="privacy-policy">Privacy Policy</a>
+                    <a class="mr-3" target="_blank" href="terms-condition">Terms of Use</a>
+                    <a target="_blank" href="covid-19-info">Covid 19</a>
+                </div>
+            </div>
         </div>
     </footer>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
-
+    <!-- Bootstrap core JS-->
+    <script src="assets/js/lib/jquery-v3-5-1.js"></script>
+    <script src="assets/js/lib/bootstrap-v4-6-0-min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="assets/js/lib/anime-min.js"></script>
+    <script src="assets/js/lib/aos.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
-
 </html>
-

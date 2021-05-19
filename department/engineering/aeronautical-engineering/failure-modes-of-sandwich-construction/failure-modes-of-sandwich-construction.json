@@ -1,0 +1,37 @@
+[
+{
+    "topic": "Failure modes of Sandwich construction",
+    "def": "The mode or the process where the composite loses its usage",
+    "heading": "Strength",
+    "notes": "Skin and Core - Withstand Tensile and Compressive Load - Transmitting shear load between skin and core",
+    "contributor": "Prathipa Ravichandran",
+    "linked_in": "https://www.linkedin.com/in/prathipa-ravichandran-230272128/"
+},
+{
+    "heading": "Stiffness",
+    "notes": "Bending and shear stiffness to resist excessive deflection"
+},
+{
+    "heading": "Panel Buckling",
+    "notes": "Thickness and shear modulus must prevent the panel from buckling"
+},
+{
+    "heading": "Shear Buckling crippling",
+    "notes": "Shear modulus must prevent crippling due to shear loads"
+
+},
+{
+    "heading": "Skin wrinkling",
+    "notes": "Compression modulus and strength - high - prevent skin wrinkling"
+
+},
+{
+    "heading": "Intra Cell Buckling (ICB)",
+    "notes": "Core shell size must be small to prevent ICB"
+
+},
+{
+    "heading": "Local Compression",
+    "notes": "Core compressive strength - resist - local loads in panel surface"
+
+}]
