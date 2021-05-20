@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <!-- <title>.:: Splitter ::.</title> -->
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="/assets/css/app.css">
     <script src="/assets/js/analytics.js"></script>
 
-    <head>
+    </head>
 
     <body id="page-top">
         <!-- Navigation-->
@@ -129,14 +129,23 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="mt-5">
-                            <p><strong>Output</strong></p>
+                            <p><strong>Output</strong>
+                                <!-- <span>
+                                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                        <strong>Copied!</strong>
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </span>
+  -->                           </p>
                             <textarea id="outputTextArea" class="form-control" name="contentTextArea" value="" rows="10" cols="50"></textarea><span class="tooltips" onclick="copyToClipBoard();"><i class="fa fa-copy" id="copy-clipboard" style="color: #18325c;"></i><span class="tooltiptext">Click to Copy</span></span>
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="mr-3 mt-3 text-center">
                             <input type="button" id="splitButton" class="btn btn-primary" name="splitButton" value="Split Text" onclick="splitText()" />
-                          <!--   <span><input type="button" id="copyButton" class="btn btn-info" name="copyButton" value="Copy to Clipboard" onclick="copyToClipBoard()" /></span> -->
+                            <!--   <span><input type="button" id="copyButton" class="btn btn-info" name="copyButton" value="Copy to Clipboard" onclick="copyToClipBoard()" /></span> -->
                         </div>
                         <br>
                     </div>
@@ -165,6 +174,8 @@
         function copyToClipBoard() {
             document.getElementById("outputTextArea").select();
             document.execCommand('copy');
+            // $('.alert').alert()
+
         }
         </script>
         <!-- Contact-->
