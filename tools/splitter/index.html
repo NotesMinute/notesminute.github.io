@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<style type="text/css">
+input[type="text"] {
+    width: 500px;
+}
+</style>
+
+<head>
+    <title>.:: Splitter ::.</title>
+
+    <head>
+
+    <body>
+        <p>
+            Delimitter
+            <br>
+            <input type="text" id="delitterTextBox" name="delitterTextBox" placeholder="Enter the Delimitter / Text-Seperator" value="-" />
+            <p />
+            <p>
+                Text to Split:
+                <br>
+                <textarea id="contentTextArea" name="contentTextArea" value="" rows="10" cols="100">
+              	</textarea>
+            </p>
+            <p>
+                Splitted Text:
+                <br>
+                <textarea id="outputTextArea" name="contentTextArea" value="" rows="10" cols="100">
+             </textarea>
+            </p>
+            <p>
+                <input type="button" id="splitButton" name="splitButton" value="Split Text" onclick="splitText()" />
+                <input type="button" id="copyButton" name="copyButton" value="Copy to Clipboard" onclick="copyToClipBoard()" />
+            </p>
+            <script type="text/javascript">
+            function splitText() {
+                try {
+                    var words = document.getElementById('contentTextArea').value;
+                    var delitterTextBox = document.getElementById('delitterTextBox').value;
+                    var lines = words.split(delitterTextBox);
+                    var replaceCharacter = "\n";
+                    for (var i = 0; i < lines.length; i++) {
+                        if (lines[i] != "") {
+                            words = words.replace(delitterTextBox, replaceCharacter);
+                        }
+                    }
+
+                    document.getElementById('outputTextArea').innerHTML = words;
+                } catch (e) {
+                    console.log("Error (S.O.S): " + e.message);
+                }
+            }
+
+            function copyToClipBoard() {
+                document.getElementById("outputTextArea").select();
+                document.execCommand('copy');
+            }
+            </script>
+    </body>
+
+</html>
