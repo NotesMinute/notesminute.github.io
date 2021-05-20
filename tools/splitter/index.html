@@ -115,28 +115,32 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="text-center">
-                            <p><strong>Delimitter</strong></p>
+                            <p><strong>Delimitter / Text-Separator</strong></p>
                             <input type="text" id="delitterTextBox" name="delitterTextBox" placeholder="Enter the Delimitter / Text-Seperator" value="-" />
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        Text to Split:
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        Place the syllabus
                         <br>
-                        <textarea id="contentTextArea" name="contentTextArea" value="" rows="10" cols="100">
+                        <textarea id="contentTextArea" name="contentTextArea" value="" rows="10" cols="50">
+                        </textarea>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        Output
+                        <br>
+                        <textarea id="outputTextArea" name="contentTextArea" value="" rows="10" cols="50">
                         </textarea>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12">
-                        Splitted Text:
+                        <div class="mr-3">
+                            <input type="button" id="splitButton" class="btn btn-primary" name="splitButton" value="Split Text" onclick="splitText()" />
+
+                        <span><input type="button" id="copyButton" class="btn btn-info" name="copyButton" value="Copy to Clipboard" onclick="copyToClipBoard()" /></span>
+                        </div>
                         <br>
-                        <textarea id="outputTextArea" name="contentTextArea" value="" rows="10" cols="100">
-                        </textarea>
-                        <div>
-                        <input type="button" id="splitButton" name="splitButton" value="Split Text" onclick="splitText()" /></div>
-                        <br>
-                        <div><input type="button" id="copyButton" name="copyButton" value="Copy to Clipboard" onclick="copyToClipBoard()" /></div>
                     </div>
                 </div>
-                </div>
+            </div>
         </section>
         <script type="text/javascript">
         function splitText() {
