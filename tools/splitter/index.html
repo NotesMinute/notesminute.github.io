@@ -130,13 +130,13 @@
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="mt-5">
                             <p><strong>Output</strong></p>
-                            <textarea id="outputTextArea" class="form-control" name="contentTextArea" value="" rows="10" cols="50"></textarea>
+                            <textarea id="outputTextArea" class="form-control" name="contentTextArea" value="" rows="10" cols="50"></textarea><span class="tooltips" onclick="copyToClipBoard();"><i class="fa fa-copy" id="copy-clipboard" style="color: #18325c;"></i><span class="tooltiptext">Click to Copy</span></span>
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="mr-3 mt-3 text-center">
                             <input type="button" id="splitButton" class="btn btn-primary" name="splitButton" value="Split Text" onclick="splitText()" />
-                            <span><input type="button" id="copyButton" class="btn btn-info" name="copyButton" value="Copy to Clipboard" onclick="copyToClipBoard()" /></span>
+                          <!--   <span><input type="button" id="copyButton" class="btn btn-info" name="copyButton" value="Copy to Clipboard" onclick="copyToClipBoard()" /></span> -->
                         </div>
                         <br>
                     </div>

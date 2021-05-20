@@ -435,7 +435,9 @@ span.tooltips .tooltiptext {
   color: #fff;
   text-align: center;
   border-radius: 6px;
+  margin:2px ;
   padding: 5px 0;
+  font-size: 10px;
 
   /* Position the tooltip */
   position: absolute;
@@ -495,4 +497,10 @@ span.tooltips:hover .tooltiptext {
 /**/
 textarea{
   resize: none;
+  float: left;
+}
+
+#copy-clipboard{
+    margin-left:-20px;
+    position:relative;
 }
