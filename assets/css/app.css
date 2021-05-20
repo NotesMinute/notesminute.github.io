@@ -490,3 +490,9 @@ span.tooltips:hover .tooltiptext {
     border-right: 0.5rem solid #64a19d;
   }
 }
+
+
+/**/
+textarea{
+  resize: none;
+}
