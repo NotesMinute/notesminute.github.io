@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Unlearn with Side-Headings and Quick-Tips</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logos/ladder_bulb_logo.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="/assets/js/lib/fontawesome-all.js"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="/assets/css/lib/aos.css">
+    <!-- datatable js/css -->
+    <script src="/assets/js/lib/jquery-v3-5-1.js"></script>
+    <script src="/assets/js/lib/bootstrap-v4-6-0-min.js"></script>
+    <script src="/assets/js/lib/dataTable-min.js"></script>
+    <script src="/assets/js/lib/dataTables-bootstrap-min.js"></script>
+    <link href="/assets/css/lib/dataTables-bootstrap-min.css" rel="stylesheet" />
+    <link href="/assets/css/lib/responsive-bootstrap-min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/assets/css/styles.css" rel="stylesheet" />
+    <!-- App CSS -->
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <script src="/assets/js/analytics.js"></script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="/home"><img src="/assets/img/logos/notesminute.png" alt="..." /></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/home">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> About </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/about/story">Story</a></li>
+                            <li><a class="dropdown-item" href="/about/team">Team </a></li>
+                            <li><a class="dropdown-item" href="/about/contributors">Contributors </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Departments </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/department/engineering">Engineering</a></li>
+                            <li><a class="dropdown-item" href="/department/arts-science">Arts & Science</a></li>
+                            <li><a class="dropdown-item" href="/department/law">Law</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Scroll Indicator Progress Bar -->
+            <div class="scroll-progress-bar" id="scrollIndicator">
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/img/header.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title-1 car-anim">Path To Learn</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">We are making learning simple</p>
+                        <p class="text-center">Apply for Internship <a class="text-white" href="/intern"> click here..</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/notes6.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title">Easy and Accessible Note Tips to all Students</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">Aligned to: <a class="text-white" href="https://sdgs.un.org/goals/goal4"> #unsdggoal4</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/notes2.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title">360 Degree Study Circles Covered</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">Aligned to: <a class="text-white" href="https://sdgs.un.org/goals/goal4"> #unsdggoal4</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/notes3.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title">
+                            Mission to attain Universal Literacy by making learning easy</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">Aligned to:<a class="text-white" href="https://sdgs.un.org/goals/goal4"> #unsdggoal4</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+ <section class="page-section">
+        <div class="container">
+            <div id="topic-details-head">
+                <div style="float:right">'
+           <label class="switch">
+            <input type="checkbox" id="view" checked >
+            <span class="slider round"></span></label>
+            </div>
+            <h3 class="text-uppercase text-center">Guided Missile </h3>
+            <hr class="divider">
+   <p class="text-center">A guided missile is a space traveling unmanned vehicle which carries within itself the means for controlling its flight path. </p>
+            
+
+            </div>
+            <div class="row" id="topic-details">
+             
+            
+<div class="row">
+ <div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Classification of Guided Missile </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> There are four types;
+1) Surface-to-Surface Missile (SSM)
+2) Surface-to-Air Missile (SAM)
+3) Air-to-Surface Missile (ASM)
+4) Air-to-Air Missile (AAM) </p>
+                </div>
+                </div>
+ <div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">1) Surface-to-Surface Missile (SSM) </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * These missiles are launched from some point on the surface of the earth to another point on the surface of the earth.
+
+* They could also be launched from a ship.
+
+* These missiles are usually employed against large and stationary targets.
+
+* The target could be a small factory or a big city.
+
+* The range could be as low as a few kilometers to as high as thousands of kilometers.
+
+* Though the terminal accuracy required of the missile guidance system is usually not much, the accuracy required for targets at the long-range must be high compared to those required for short ranges.
+
+* Missiles employed for long-range targets are also known as strategic missiles. Short Range, Intermediate-Range, and Inter-Continental Ballistic Missiles (SRBM, IRBM, and ICBM) are some of the generic names (based on the range performance) of these missiles.
+
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Examples surface-to-surface missile (SSM) </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> Type of missiles are :
+
+*  CSS-3 ICBM (Country of origin : China, Maximum range : 7000 km).
+
+* SS-18 Satan ICBM (CIS-formerly USSR, 12000 km).
+
+* Minuteman ICBM (USA, 1200 km).
+
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">2) Surface-to-Air Missile (SAM) </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Any guided missile launched from a point on the surface of the earth to destroy a target in the air qualifies for this category.
+
+* The launch point, however, could be either a ship or land. 
+
+* Here the targets are always in motion and quite often have considerable maneuvering capability.
+
+* The guidance system must be accurate since the targets are usually small in size, move at high speeds, and/or are capable of executing complicated maneuvers (e.g., fighter aircraft, helicopters, SSMs).
+
+* Thus, these missiles have support Equipment which continuously collects information about the current position and velocity of the target. 
+
+*The time available for the missile to destroy a flying target is usually small and so the guidance system must be able to take appropriate actions in a short period of time.
+ </p>
+                </div>
+                </div>
+            
+            
+           
+ <div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Example of Surface-to-Air Missile (SAM) </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * These missiles are normally used as defensive weapons.
+
+* Some examples of such missiles are : 
+1) Gremlin SA-14 (CIS, 6 km)
+2) MANPADS (France, 4-6 km)
+3) Stinger (USA, 45 km)
+4) Patriot (USA, 160 km).
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">3) Air-to-Surface Missiles </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * These missiles are usually launched from an aircraft to destroy targets on the surface of the earth. 
+
+* The targets could be moving (not at very high speeds) but are normally stationary. 
+
+* The launch point (aircraft) is in motion. Hence, it is possible to search and seek out targets whose positions or movements are not known beforehand. 
+
+* In other words, the targets for such missiles are seldom predetermined as in the case of SSMs, which means that the missile must have some means of seeking out these targets. 
+
+* This causes the additional problems of avoiding spurious signals from the ground. 
+
+* Since it is possible to come close to the target, accuracy can also be improved. 
+However, the launch point itself moves, and so the velocity and other dynamic properties of the aircraft must be taken into account in the guidance system.
+
+* These missiles are primarily offensive weapons but can also be considered a defensive weapon system depending on their actual use. 
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Example of Air-to-Surface Missiles </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Gabriel MK-III (Israel, 40 km)
+* HARM AGM-88A (USA, 25 km)
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">4) Air-to-Air Missile </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Here, both the launch point and the target are aircraft. 
+
+* These missiles are perhaps the most difficult to design and build. Both aircraft are in motion at high speeds. 
+
+* They are also capable of high maneuverability. 
+
+* Targets are small and difficult to locate. 
+
+* The guidance system has to take into account all the factors mentioned for SAMs at the target end, and those mentioned for ASMs at the launch end. 
+
+* In addition, the guidance system should be such that it should not prevent the aircraft which launches the missile from taking evasive actions for its own survival after the missile has been launched.
+
+* These missiles can be used both as offensive and defensive weapon systems </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Example of Air-to-Air Missile </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Super 530 (France, 25 km)
+* Ash AA-5 (CIS, 5-20 km)
+* Sidewinder AIM-9 (USA, 5-15 km).
+ </p>
+                </div>
+                </div>
+            
+            
+           
+ </div> </div><div class="row" id="topic-details1">
+             
+            
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Classification of Guided Missile </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> There are four types;
+1) Surface-to-Surface Missile (SSM)
+2) Surface-to-Air Missile (SAM)
+3) Air-to-Surface Missile (ASM)
+4) Air-to-Air Missile (AAM) </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">1) Surface-to-Surface Missile (SSM) </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * These missiles are launched from some point on the surface of the earth to another point on the surface of the earth.
+
+* They could also be launched from a ship.
+
+* These missiles are usually employed against large and stationary targets.
+
+* The target could be a small factory or a big city.
+
+* The range could be as low as a few kilometers to as high as thousands of kilometers.
+
+* Though the terminal accuracy required of the missile guidance system is usually not much, the accuracy required for targets at the long-range must be high compared to those required for short ranges.
+
+* Missiles employed for long-range targets are also known as strategic missiles. Short Range, Intermediate-Range, and Inter-Continental Ballistic Missiles (SRBM, IRBM, and ICBM) are some of the generic names (based on the range performance) of these missiles.
+
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Examples surface-to-surface missile (SSM) </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> Type of missiles are :
+
+*  CSS-3 ICBM (Country of origin : China, Maximum range : 7000 km).
+
+* SS-18 Satan ICBM (CIS-formerly USSR, 12000 km).
+
+* Minuteman ICBM (USA, 1200 km).
+
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">2) Surface-to-Air Missile (SAM) </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Any guided missile launched from a point on the surface of the earth to destroy a target in the air qualifies for this category.
+
+* The launch point, however, could be either a ship or land. 
+
+* Here the targets are always in motion and quite often have considerable maneuvering capability.
+
+* The guidance system must be accurate since the targets are usually small in size, move at high speeds, and/or are capable of executing complicated maneuvers (e.g., fighter aircraft, helicopters, SSMs).
+
+* Thus, these missiles have support Equipment which continuously collects information about the current position and velocity of the target. 
+
+*The time available for the missile to destroy a flying target is usually small and so the guidance system must be able to take appropriate actions in a short period of time.
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Example of Surface-to-Air Missile (SAM) </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * These missiles are normally used as defensive weapons.
+
+* Some examples of such missiles are : 
+1) Gremlin SA-14 (CIS, 6 km)
+2) MANPADS (France, 4-6 km)
+3) Stinger (USA, 45 km)
+4) Patriot (USA, 160 km).
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">3) Air-to-Surface Missiles </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * These missiles are usually launched from an aircraft to destroy targets on the surface of the earth. 
+
+* The targets could be moving (not at very high speeds) but are normally stationary. 
+
+* The launch point (aircraft) is in motion. Hence, it is possible to search and seek out targets whose positions or movements are not known beforehand. 
+
+* In other words, the targets for such missiles are seldom predetermined as in the case of SSMs, which means that the missile must have some means of seeking out these targets. 
+
+* This causes the additional problems of avoiding spurious signals from the ground. 
+
+* Since it is possible to come close to the target, accuracy can also be improved. 
+However, the launch point itself moves, and so the velocity and other dynamic properties of the aircraft must be taken into account in the guidance system.
+
+* These missiles are primarily offensive weapons but can also be considered a defensive weapon system depending on their actual use. 
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Example of Air-to-Surface Missiles </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Gabriel MK-III (Israel, 40 km)
+* HARM AGM-88A (USA, 25 km)
+ </p>
+                </div>
+                </div>
+            
+            
+           
+  <div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">4) Air-to-Air Missile </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Here, both the launch point and the target are aircraft. 
+
+* These missiles are perhaps the most difficult to design and build. Both aircraft are in motion at high speeds. 
+
+* They are also capable of high maneuverability. 
+
+* Targets are small and difficult to locate. 
+
+* The guidance system has to take into account all the factors mentioned for SAMs at the target end, and those mentioned for ASMs at the launch end. 
+
+* In addition, the guidance system should be such that it should not prevent the aircraft which launches the missile from taking evasive actions for its own survival after the missile has been launched.
+
+* These missiles can be used both as offensive and defensive weapon systems </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Example of Air-to-Air Missile </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Super 530 (France, 25 km)
+* Ash AA-5 (CIS, 5-20 km)
+* Sidewinder AIM-9 (USA, 5-15 km).
+ </p>
+                </div>
+                </div>
+            
+            
+           
+            </div>            </div><h6 class="text-right mt-5">Contributor Info</h6>
+            <hr class="divider mr-0">
+            <div class="row" id="contributor-info">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+            <p class="text-right">Narain C N</p>
+            <p class="text-right"><a target="_blank" href="+https://www.linkedin.com/in/naraincn/+"><i class="fab fa-linkedin-in"></i></a></p>
+            </div>
+
+            </div></section>    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <h5 class="text-left mt-0 text-white">Quick Links</h5>
+                    <hr class="divider ml-0 my-4">
+                    <p class="text-left"><a class="text-white" href="/home">Home</a></p>
+                    <p class="text-left"><a class="text-white" href="/about/story">About Us</a></p>
+                    <p class="text-left"><a class="text-white" href="/department/engineering">Engineering</a></p>
+                    <p class="text-left"><a class="text-white" href="/department/arts-science">Arts & Science</a></p>
+                    <p class="text-left"><a class="text-white" href="/department/law">Law</a></p>
+                    <p class="text-left mb-5"><a class="text-white" href="#contact">Contact</a></p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <h5 class="text-left mt-0 text-white">Contact Us</h5>
+                    <hr class="divider ml-0 my-4">
+                    <p class="text-left mb-2 text-white"> 18/57 A/1, Jai Nagar,</p>
+                    <p class="text-left mb-2 text-white"> Kavundampalayam, </p>
+                    <p class="text-left mb-2 text-white"> Coimbatore - 641 030,</p>
+                    <p class="text-left mb-4 text-white"> Tamil Nadu</p>
+                    <p class="text-left mb-2 text-white">+91 422 43 80 500</p>
+                    <p class="text-left mb-2 text-white">+91 94456 80500</p>
+                    <p class="text-left mb-4"><a class="text-white" href="mailto:info@notesminute.com">info@notesminute.com</a></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h5 class="text-left mt-0 text-white">NotesMinute</h5>
+                    <hr class="divider ml-0 my-4">
+                    <p class="text-white">
+                        NotesMinute aims to make remembering notes easier by providing pointers in the form of headings and small tips about the topic
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-left">
+                    Copyright &copy;Notesminute
+                    <!-- This script automatically adds the current year to your website footer-->
+                    <!-- (credit: https://updateyourfooter.com/)-->
+                    <script>
+                    document.write(new Date().getFullYear());
+                    </script>
+                </div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="http://www.twitter.com/NotesMinute"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="http://www.facebook.com/NotesMinute"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-right">
+                    <a class="mr-3" target="_blank" href="/privacy-policy">Privacy Policy</a>
+                    <a class="mr-3" target="_blank" href="/terms-condition">Terms of Use</a>
+                    <a target="_blank" href="/covid-19-info">Covid 19</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Third party plugin JS-->
+    <script src="/assets/js/lib/anime-min.js"></script>
+    <script src="/assets/js/lib/aos.js"></script>
+    <!-- Contact form JS-->
+    <script src="/assets/mail/jqBootstrapValidation.js"></script>
+    <script src="/assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="/assets/js/scripts.js"></script>
+    <script src="/assets/js/app.js"></script>
+</body>
+
+</html>

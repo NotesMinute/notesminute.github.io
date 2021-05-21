@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Unlearn with Side-Headings and Quick-Tips</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logos/ladder_bulb_logo.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="/assets/js/lib/fontawesome-all.js"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="/assets/css/lib/aos.css">
+    <!-- datatable js/css -->
+    <script src="/assets/js/lib/jquery-v3-5-1.js"></script>
+    <script src="/assets/js/lib/bootstrap-v4-6-0-min.js"></script>
+    <script src="/assets/js/lib/dataTable-min.js"></script>
+    <script src="/assets/js/lib/dataTables-bootstrap-min.js"></script>
+    <link href="/assets/css/lib/dataTables-bootstrap-min.css" rel="stylesheet" />
+    <link href="/assets/css/lib/responsive-bootstrap-min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/assets/css/styles.css" rel="stylesheet" />
+    <!-- App CSS -->
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <script src="/assets/js/analytics.js"></script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="/home"><img src="/assets/img/logos/notesminute.png" alt="..." /></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/home">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> About </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/about/story">Story</a></li>
+                            <li><a class="dropdown-item" href="/about/team">Team </a></li>
+                            <li><a class="dropdown-item" href="/about/contributors">Contributors </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Departments </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/department/engineering">Engineering</a></li>
+                            <li><a class="dropdown-item" href="/department/arts-science">Arts & Science</a></li>
+                            <li><a class="dropdown-item" href="/department/law">Law</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Scroll Indicator Progress Bar -->
+            <div class="scroll-progress-bar" id="scrollIndicator">
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/img/header.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title-1 car-anim">Path To Learn</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">We are making learning simple</p>
+                        <p class="text-center">Apply for Internship <a class="text-white" href="/intern"> click here..</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/notes6.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title">Easy and Accessible Note Tips to all Students</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">Aligned to: <a class="text-white" href="https://sdgs.un.org/goals/goal4"> #unsdggoal4</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/notes2.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title">360 Degree Study Circles Covered</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">Aligned to: <a class="text-white" href="https://sdgs.un.org/goals/goal4"> #unsdggoal4</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/notes3.jpg" style="height: 92vh;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block mb-5">
+                        <p class="car-title">
+                            Mission to attain Universal Literacy by making learning easy</p>
+                        <hr class="divider my-4" />
+                        <p class="car-subtitle">Aligned to:<a class="text-white" href="https://sdgs.un.org/goals/goal4"> #unsdggoal4</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+ <section class="page-section">
+        <div class="container">
+            <div id="topic-details-head">
+                <div style="float:right">'
+           <label class="switch">
+            <input type="checkbox" id="view" checked >
+            <span class="slider round"></span></label>
+            </div>
+            <h3 class="text-uppercase text-center">Types of centrifugal casting </h3>
+            <hr class="divider">
+   <div class="row" id="topic-details">
+             
+            
+<div class="row">
+ <div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">True centrifugal casting. </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Molten metal is poured while the mould rotates at its axis.
+* May be horizontal,vertical or inclined ( 0 to 90 degree ).
+* Horizontal axis of rotation is more common.
+* Outside of mould is covered with water coolant to accelerate solidification.
+* Proper control of flow rate and pouring orifice, long and large tubes of uniform quality is obtained. </p>
+                </div>
+                </div>
+ <div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Advantages of true centrifugal casting. </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Casting acquire the high density and are distinguished for their fine-grained structure and high mechanical strength.
+* Inclusions and impurities such as oxide, slag, and gas, etc, being lighter than the molten metal will segregate towards the center to the inside of the casting, where they may be removed by a subsequent machining operation.
+* Gates and risers are not needed which results in saving in material and increasing the yield.
+* High output.
+* Formation of hollow interiors without cores.
+* The casting is less subject to directional variation than static castings. </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Disadvantages of true centrifugal casting. </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Contamination of inner surface of the casting makes it necessary to increase finishing allowance for subsequent machining of the inner surface.
+* An inaccurate diameter of the surface of a casting.
+* Not all the alloys can be cast by this method. </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Application of true centrifugal casting. </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Water supply 
+* Sewerage pipes
+* Steel gun barrels
+* Chemical reactor vessels
+* Pressure vessel bodies
+* Reactor tubes
+* Piping for nuclear power plants
+* paper mill rolls
+* Textile rolls, etc.
+
+Keynotes:
+ * The method of a true centrifugal vertical machine which is also known as "The deLavaud Process". </p>
+                </div>
+                </div>
+            
+            
+           
+ <div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Semi Centrifugal casting </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * It is a process used to produce solid casting and hence it requires a core to produce hollow cavities.
+* Forming symmetrical shaped objects and axis of rotation is vertical.
+* High pouring pressure is not produced and the impurities are not rejected towards the center.
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Application of Semicentrifugal casting </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * This process is used for making wheels, rings, rollers, pulleys, flywheels, gear blank, Turbo supercharge diaphragm disk, steel railroad wheels, nozzles and similar parts etc. </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Centrifuge casting </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * When the group of small molds is arranged in a circle (to balance each other) around the central vertical axis of the vertical axis, this process is called centrifuge casting.
+* It is clear that the molds are not symmetrical about the axis of rotation, that is, the axis of casting and the axis of rotation do not coincide with one another.
+*Here again the centrifugal force is used to obtain higher pressure on the metal and get more dense casting.
+* The molten metal will flow to all the molds under centrifugal force from a central feeding sprue. </p>
+                </div>
+                </div>
+            
+            
+           
+ </div> </div><div class="row" id="topic-details1">
+             
+            
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">True centrifugal casting. </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Molten metal is poured while the mould rotates at its axis.
+* May be horizontal,vertical or inclined ( 0 to 90 degree ).
+* Horizontal axis of rotation is more common.
+* Outside of mould is covered with water coolant to accelerate solidification.
+* Proper control of flow rate and pouring orifice, long and large tubes of uniform quality is obtained. </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Advantages of true centrifugal casting. </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Casting acquire the high density and are distinguished for their fine-grained structure and high mechanical strength.
+* Inclusions and impurities such as oxide, slag, and gas, etc, being lighter than the molten metal will segregate towards the center to the inside of the casting, where they may be removed by a subsequent machining operation.
+* Gates and risers are not needed which results in saving in material and increasing the yield.
+* High output.
+* Formation of hollow interiors without cores.
+* The casting is less subject to directional variation than static castings. </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Disadvantages of true centrifugal casting. </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Contamination of inner surface of the casting makes it necessary to increase finishing allowance for subsequent machining of the inner surface.
+* An inaccurate diameter of the surface of a casting.
+* Not all the alloys can be cast by this method. </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Application of true centrifugal casting. </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * Water supply 
+* Sewerage pipes
+* Steel gun barrels
+* Chemical reactor vessels
+* Pressure vessel bodies
+* Reactor tubes
+* Piping for nuclear power plants
+* paper mill rolls
+* Textile rolls, etc.
+
+Keynotes:
+ * The method of a true centrifugal vertical machine which is also known as "The deLavaud Process". </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Semi Centrifugal casting </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * It is a process used to produce solid casting and hence it requires a core to produce hollow cavities.
+* Forming symmetrical shaped objects and axis of rotation is vertical.
+* High pouring pressure is not produced and the impurities are not rejected towards the center.
+ </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Application of Semicentrifugal casting </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * This process is used for making wheels, rings, rollers, pulleys, flywheels, gear blank, Turbo supercharge diaphragm disk, steel railroad wheels, nozzles and similar parts etc. </p>
+                </div>
+                </div>
+            
+            
+           
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Centrifuge casting </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> * When the group of small molds is arranged in a circle (to balance each other) around the central vertical axis of the vertical axis, this process is called centrifuge casting.
+* It is clear that the molds are not symmetrical about the axis of rotation, that is, the axis of casting and the axis of rotation do not coincide with one another.
+*Here again the centrifugal force is used to obtain higher pressure on the metal and get more dense casting.
+* The molten metal will flow to all the molds under centrifugal force from a central feeding sprue. </p>
+                </div>
+                </div>
+            
+            
+           
+            </div>            </div><h6 class="text-right mt-5">Contributor Info</h6>
+            <hr class="divider mr-0">
+            <div class="row" id="contributor-info">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+            <p class="text-right">Narain C N</p>
+            <p class="text-right"><a target="_blank" href="+https://www.linkedin.com/in/naraincn/+"><i class="fab fa-linkedin-in"></i></a></p>
+            </div>
+
+            </div></section>    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <h5 class="text-left mt-0 text-white">Quick Links</h5>
+                    <hr class="divider ml-0 my-4">
+                    <p class="text-left"><a class="text-white" href="/home">Home</a></p>
+                    <p class="text-left"><a class="text-white" href="/about/story">About Us</a></p>
+                    <p class="text-left"><a class="text-white" href="/department/engineering">Engineering</a></p>
+                    <p class="text-left"><a class="text-white" href="/department/arts-science">Arts & Science</a></p>
+                    <p class="text-left"><a class="text-white" href="/department/law">Law</a></p>
+                    <p class="text-left mb-5"><a class="text-white" href="#contact">Contact</a></p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <h5 class="text-left mt-0 text-white">Contact Us</h5>
+                    <hr class="divider ml-0 my-4">
+                    <p class="text-left mb-2 text-white"> 18/57 A/1, Jai Nagar,</p>
+                    <p class="text-left mb-2 text-white"> Kavundampalayam, </p>
+                    <p class="text-left mb-2 text-white"> Coimbatore - 641 030,</p>
+                    <p class="text-left mb-4 text-white"> Tamil Nadu</p>
+                    <p class="text-left mb-2 text-white">+91 422 43 80 500</p>
+                    <p class="text-left mb-2 text-white">+91 94456 80500</p>
+                    <p class="text-left mb-4"><a class="text-white" href="mailto:info@notesminute.com">info@notesminute.com</a></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h5 class="text-left mt-0 text-white">NotesMinute</h5>
+                    <hr class="divider ml-0 my-4">
+                    <p class="text-white">
+                        NotesMinute aims to make remembering notes easier by providing pointers in the form of headings and small tips about the topic
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-left">
+                    Copyright &copy;Notesminute
+                    <!-- This script automatically adds the current year to your website footer-->
+                    <!-- (credit: https://updateyourfooter.com/)-->
+                    <script>
+                    document.write(new Date().getFullYear());
+                    </script>
+                </div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="http://www.twitter.com/NotesMinute"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="http://www.facebook.com/NotesMinute"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-right">
+                    <a class="mr-3" target="_blank" href="/privacy-policy">Privacy Policy</a>
+                    <a class="mr-3" target="_blank" href="/terms-condition">Terms of Use</a>
+                    <a target="_blank" href="/covid-19-info">Covid 19</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Third party plugin JS-->
+    <script src="/assets/js/lib/anime-min.js"></script>
+    <script src="/assets/js/lib/aos.js"></script>
+    <!-- Contact form JS-->
+    <script src="/assets/mail/jqBootstrapValidation.js"></script>
+    <script src="/assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="/assets/js/scripts.js"></script>
+    <script src="/assets/js/app.js"></script>
+</body>
+
+</html>
