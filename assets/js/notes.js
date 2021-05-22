@@ -6,6 +6,8 @@ const icon = searchWrapper.querySelector(".icon");
 let linkTag = searchWrapper.querySelector("a");
 let webLink;
 
+let queryparam="search?q="
+
 // if user press any key and release
 inputBox.onkeyup = (e) => {
     let userData = e.target.value; //user enetered data
@@ -45,7 +47,7 @@ function select(element) {
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = () => {
-        webLink = "https://www.notesminute.com/search/" + selectData;
+        webLink = "http://notesminute.com/topics/" +selectData+'/?search='+selectData  ;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
