@@ -5,19 +5,21 @@ const suggBox = searchWrapper.querySelector(".autocom-box");
 const icon = searchWrapper.querySelector(".icon");
 let linkTag = searchWrapper.querySelector("a");
 let webLink;
-
-let queryparam="search?q="
+let queryparam = "search?q="
 
 // if user press any key and release
 inputBox.onkeyup = (e) => {
     let userData = e.target.value; //user enetered data
     let emptyArray = [];
+    let passArray = [];
 
     if (userData) {
 
         icon.onclick = () => {
             // webLink = "https://www.google.com/search?q=" + userData;
-            webLink = "https://www.notesminute.com/404/";
+            // webLink = "https://www.notesminute.com/404/";
+            var webLink = "https://www.notesminute.com/search/?search=" + encodeURIComponent($("#txtName").val()) + "&list=" + encodeURIComponent(passArray);
+            window.location.href = webLink;
             linkTag.setAttribute("href", webLink);
             console.log(webLink);
             linkTag.click();
@@ -27,10 +29,21 @@ inputBox.onkeyup = (e) => {
             //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
             return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
         });
+
+        //for passing data
+        passArray = emptyArray.map((data) => {
+            // passing return data inside li tag
+            return data;
+
+        });
+
         emptyArray = emptyArray.map((data) => {
             // passing return data inside li tag
-            return data = '<li>' + data + '</li>';
+
+            return data = '<li id="listName">' + data + '</li>';
+
         });
+
         searchWrapper.classList.add("active"); //show autocomplete box
         showSuggestions(emptyArray);
         let allList = suggBox.querySelectorAll("li");
@@ -47,7 +60,8 @@ function select(element) {
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = () => {
-        webLink = "https://www.notesminute.com/topics/" +selectData+'/?search='+selectData  ;
+        webLink = "https://www.notesminute.com/topics/" + selectData + '/?search=' + selectData;
+        // var webLink = "http://127.0.0.1:8887/search/?search=" + encodeURIComponent($("#txtName").val()) + "&list=" + encodeURIComponent(passArray);
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
@@ -59,8 +73,8 @@ function showSuggestions(list) {
 
     if (!list.length) {
         userValue = inputBox.value;
-        listData = '<li><small>No Results Found..</small></li>';
-        // listData = '<li>' + userValue + '</li>';
+        // listData = '<li><small>No Results Found..</small></li>';
+        listData = '<li>' + userValue + '</li>';
     } else {
         listData = list.join('');
     }
