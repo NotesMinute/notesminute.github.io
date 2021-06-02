@@ -1,5 +1,6 @@
 let suggestions = [
-"‘dorothy-dixer’",
+"terms-of-limit",
+"dorothy-dixer",
 "vote-of-no-confidence",
 "vox-pop",
 "ward-heeler",
