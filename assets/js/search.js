@@ -32,18 +32,21 @@ $(function() {
                 data += '</div >'
                 data += '<div class="row justify-content-center mt-5" >'
 
+                     data += '<div class="paginate 1">'
 
                 for (var i = 0; i < arr.length; i++) {
                     if (arr[i] != 0) {
-                        data += '<div class="col-lg-4 col-md-6 col-sm-12 text-center">';
-                        data += '<div class=" shadow-sm p-3 mb-5 bg-white rounded">'
-                        data += '<a target="_blank" href=' + hreflink + arr[i] + '>';
-                        data += arr[i];
+                        data += '<div class="items ">'
+                        // data += '<div class="col-lg-4 col-md-6 col-sm-12 text-center">';
+                        data += '<div class=" shadow-sm p-3 mb-5 bg-white">'
+                        data += '<div><a target="_blank" href=' + hreflink + arr[i] + '>';
+                        data += "What is ";
+                        data += arr[i].toUpperCase()+" ?";
                         data += '</a>';
-                        data += '<p><br></p>'
+                        // data += '<p><br></p>'
                         data += '</div>'
-
-                        data += '<p><br></p>'
+                        // data += '<p><br></p>'
+                        data+='</div>';
                         data += '</div>';
                     }
                     else
@@ -53,9 +56,20 @@ $(function() {
 
                     }
                     }
+                    data += '<div class="pager">'
+    data+='<div class="firstPage">&laquo;</div>'
+    data+='<div class="previousPage">&lsaquo;</div>'
+    data+='<div class="pageNumbers"></div>'
+    data+='<div class="nextPage">&rsaquo;</div>'
+    data+='<div class="lastPage">&raquo;</div>'
+  data+='</div>'
+                    data += '</div>'
 
 
                     data += '</div>'
                     $("#parseData").append(data);
                 }
+                $(".paginate").paginga({
+
+});
             });
