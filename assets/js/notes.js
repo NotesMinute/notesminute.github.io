@@ -12,7 +12,7 @@ inputBox.onkeyup = (e) => {
     let userData = e.target.value; //user enetered data
     let emptyArray = [];
     let passArray = [];
-
+    suggestions.sort();
     if (userData) {
 
         icon.onclick = () => {
