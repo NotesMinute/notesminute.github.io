@@ -783,5 +783,5 @@ let suggestions = [
 "property-rights-and-coase-theorem",
 "tragedy-of-commons",
 "pareto-optimality",
-"pollution-prevention-and-control",
+"pollution-prevention-and-control"
 ];
