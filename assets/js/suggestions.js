@@ -826,5 +826,12 @@ let suggestions = [
 "assignment-and-conditional-operators-in-c",
 "library-functions-in-c",
 "data-input-and-output-functions-in-c",
-"simple-c-programs"
+"simple-c-programs",
+"special-inspection-schedules-of-piston-engines",
+"engine-fuel,control-and-exhaust-system",
+"engine-mount-and-super-charger",
+"checks-and-inspection-procedures-of-piston-engines",
+"symptoms-of-failure-in-piston-engines",
+"fault-diagnostics-of-piston-engines",
+"case-studies-of-different-engine-system"
 ];
