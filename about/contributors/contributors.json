@@ -95,7 +95,7 @@
     "dept": "Aeronautical Engineer",
     "clg": "",
     "linkedin_url": "https://www.linkedin.com/in/kari-kalan-319182199",
-    "intern_category":"Bronze",
+    "intern_category":"Silver",
     "start-of-intern": "",
     "end-of-intern": ""
 },
@@ -147,6 +147,16 @@
     "clg": "",
     "linkedin_url": "https://www.linkedin.com/in/logeswaran-g-93a37a180/",
     "intern_category":"Bronze",
+    "start-of-intern": "",
+    "end-of-intern": ""
+},
+{
+    "reg-no": "",
+    "name": "Bhavana Ramesh",
+    "dept": "M.A(Applied Economics)",
+    "clg": "",
+    "linkedin_url": "https://www.linkedin.com/in/bhavana-ramesh-a6537217b/",
+    "intern_category":"Gold",
     "start-of-intern": "",
     "end-of-intern": ""
 }
