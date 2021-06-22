@@ -101,6 +101,17 @@
 },
 {
     "reg-no": "",
+    "name": "Baskar S",
+    "dept": "Aeronautical Engineer",
+    "clg": "",
+    "linkedin_url": "https://www.linkedin.com/in/baskar-sellamuthu-aeronautical-005335214/",
+    "intern_category":"Bronze",
+    "start-of-intern": "",
+    "end-of-intern": ""
+},
+
+{
+    "reg-no": "",
     "name": "Swathy",
     "dept": "BCA",
     "clg": "",
@@ -116,6 +127,16 @@
     "clg": "",
     "linkedin_url": "https://www.linkedin.com/in/mohamed-azarudeen-75393a182/ ",
     "intern_category":"Silver",
+    "start-of-intern": "",
+    "end-of-intern": ""
+},
+{
+    "reg-no": "",
+    "name": "Kaviya D",
+    "dept": "MSC Biotechnology",
+    "clg": "",
+    "linkedin_url": "https://www.linkedin.com/in/kavya-d-216818214",
+    "intern_category":"Bronze",
     "start-of-intern": "",
     "end-of-intern": ""
 },
