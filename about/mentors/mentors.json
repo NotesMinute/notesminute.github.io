@@ -2,14 +2,14 @@
 {
     "id": "1",
     "name": "Mr.N.Mani",
-    "designation": "Assistent Professor",
+    "designation": "Assistant Professor",
     "dept_name": "Department of Mathematics",
     "clg_name": "Sri Ramakrishna College of Arts and Science, Coimbatore"
 },
 {
     "id": "2",
     "name": "Ms.P.Arularasi Peter",
-    "designation": "Assistent Professor",
+    "designation": "Assistant Professor",
     "dept_name": "Department of Computer science",
     "clg_name": "St.Therasa's Arts and Science College for Women, Tharangambadi"
 }]
