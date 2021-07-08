@@ -12,4 +12,19 @@
     "designation": "Assistant Professor",
     "dept_name": "Department of Computer Science",
     "clg_name": "St.Therasa's Arts and Science College for Women, Tharangambadi"
-}]
+},
+{
+    "id": "3",
+    "name": "Dr.N.Uma",
+    "designation": "Head of The Department",
+    "dept_name": "PG and Research Department of Mathematics",
+    "clg_name": "Sri Ramakrishna College of Arts and Science, Coimbatore"
+},
+{
+    "id": "4",
+    "name": "Mr.Y.L.Sivachandran",
+    "designation": "Assistant Professor",
+    "dept_name": "Department of Mathematics",
+    "clg_name": "Sri Ramakrishna College of Arts and Science, Coimbatore"
+}
+]
