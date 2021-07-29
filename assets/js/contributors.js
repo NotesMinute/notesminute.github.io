@@ -1,5 +1,9 @@
 $(document).ready(function() {
-    var t = $('#example').DataTable();
+    var t = $('#example').DataTable({
+        "pageLength" : 10,
+        "iDisplayLength": -1,
+    "aaSorting": [[ 4, "asc" ]]
+    });
     var counter = 1;
     $.getJSON("/about/contributors/contributors.json",
         function(data) {
@@ -9,7 +13,8 @@ $(document).ready(function() {
                     value.name,
                     value.dept,
                     linkedin_url,
-                    value.intern_category
+                    value.intern_category,
+                    value.orderby
                 ]).draw(false);
             });
         });
