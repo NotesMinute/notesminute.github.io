@@ -2,6 +2,12 @@ $(document).ready(function() {
     var t = $('#example').DataTable({
         "pageLength" : 10,
         "iDisplayLength": -1,
+        "columnDefs": [
+            {
+                "targets": [ 4 ],
+                "visible": false,
+                "searchable": false
+            }],
     "aaSorting": [[ 4, "asc" ]]
     });
     var counter = 1;
