@@ -183,7 +183,7 @@
     "dept": "MSC Biotechnology",
     "clg": "",
     "linkedin_url": "https://www.linkedin.com/in/kavya-d-216818214",
-    "intern_category":"Bronze",
+    "intern_category":"Gold",
     "start-of-intern": "",
     "end-of-intern": "",
     "orderby":"E"
@@ -338,6 +338,17 @@
     "dept": "Mathematics",
     "clg": "",
     "linkedin_url": "https://www.linkedin.com/in/harish-m-msc-maths-064b69217/",
+    "intern_category":"Bronze",
+    "start-of-intern": "",
+    "end-of-intern": "",
+    "orderby":"E"
+},
+{
+    "reg-no": "",
+    "name": "Dharshini V",
+    "dept": "Mathematics",
+    "clg": "",
+    "linkedin_url": "https://www.linkedin.com/in/dharshini-viswanathan-ab2ab3202",
     "intern_category":"Bronze",
     "start-of-intern": "",
     "end-of-intern": "",
