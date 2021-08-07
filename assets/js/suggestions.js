@@ -19,7 +19,6 @@ let suggestions = [
 "factorial-experiments",
 "confounding",
 "total-and-partial-confounding",
-"transition-diagram",
 "line-of-sight",
 "horizontal-level",
 "angle-of-elevation",
