@@ -69,9 +69,10 @@
             <input type="checkbox" id="view" checked >
             <span class="slider round"></span></label>
             </div>
-            <h3 class="text-uppercase text-center">Harmonic Motion </h3>
+            <h3 class="text-uppercase text-center">Initial and Boundary Conditions in Differential Equations </h3>
             <hr class="divider">
-   <p class="text-center">For one-dimensional simple harmonic motion, the equation of motion, which is a second-order linear ordinary differential equation with constant coefficients, can be obtained by means of Newton's 2nd law and Hooke's law for a mass on a spring. </p>
+   <p class="text-center">
+A boundary condition expresses the behavior of a function on the boundary (border) of its area of definition. An initial condition is like a boundary condition, but then for the time-direction. Not all boundary conditions allow for solutions, but usually the physics suggests what makes sense. </p>
             
 
             </div>
@@ -79,10 +80,91 @@
              
             
 <div class="row">
+ <div class="col-lg-4 col-md-6 col-sm-6 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Introduction to Boundary and Initial Conditions </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> As you all know, solutions to ordinary differential equations are usually not unique (integration constants appear in many places). This is of course equally a problem for PDE’s. PDE’s are usually specified through a set of boundary or initial conditions. A boundary condition expresses the behavior of a function on the boundary (border) of its area of definition. An initial condition is like a boundary condition, but then for the time-direction. Not all boundary conditions allow for solutions, but usually the physics suggests what makes sense. Let me remind you of the situation for ordinary differential equations, one you should all be familiar with, a particle under the influence of a constant force,
+
+?2x/?t2=a 
+?x/?tx=at+v0,
+x=12at2+v0t+x0.
+
+This contains two integration constants. Standard practice would be to specify  ?x/?t(t=0)=v0  and  x(t=0)=x0 . These are linear initial conditions (linear since they only involve  x  and its derivatives linearly), which have at most a first derivative in them. This one order difference between boundary condition and equation persists to PDE’s. It is kind of obviously that since the equation already involves that derivative, we can not specify the same derivative in a different equation.
+
+Let me give an example. Take
+
+u=yf(x)
+
+then
+
+?u/?y=f(x).
+
+This can be used to eliminate f from the first of the equations, giving
+
+u=y?u/?y
+
+which has the general solution u=yf(x).
+
+One can construct more complicated examples. Consider
+
+u(x,y)=f(x+y)+g(x?y)
+
+which gives on double differentiation
+
+?2u/?x2??2u/?y2=0.
+
+The problem is that without additional conditions the arbitrariness in the solutions makes it almost useless (if possible) to write down the general solution. We need additional conditions, that reduce this freedom. In most physical problems these are boundary conditions, that describes how the system behaves on its boundaries (for all times) and initial conditions, that specify the state of the system for an initial time  t=0 . In the ODE problem discussed before we have two initial conditions (velocity and position at time  t=0 ).
+
+ </p>
+                </div>
+                </div>
  </div> </div><div class="row" id="topic-details1">
              
             
 <div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="mt-5 ">
+                <h4 class="text-muted mt-2">Introduction to Boundary and Initial Conditions </h4>
+                <hr class="divider ml-0">
+            <p class="mt-2"> As you all know, solutions to ordinary differential equations are usually not unique (integration constants appear in many places). This is of course equally a problem for PDE’s. PDE’s are usually specified through a set of boundary or initial conditions. A boundary condition expresses the behavior of a function on the boundary (border) of its area of definition. An initial condition is like a boundary condition, but then for the time-direction. Not all boundary conditions allow for solutions, but usually the physics suggests what makes sense. Let me remind you of the situation for ordinary differential equations, one you should all be familiar with, a particle under the influence of a constant force,
+
+?2x/?t2=a 
+?x/?tx=at+v0,
+x=12at2+v0t+x0.
+
+This contains two integration constants. Standard practice would be to specify  ?x/?t(t=0)=v0  and  x(t=0)=x0 . These are linear initial conditions (linear since they only involve  x  and its derivatives linearly), which have at most a first derivative in them. This one order difference between boundary condition and equation persists to PDE’s. It is kind of obviously that since the equation already involves that derivative, we can not specify the same derivative in a different equation.
+
+Let me give an example. Take
+
+u=yf(x)
+
+then
+
+?u/?y=f(x).
+
+This can be used to eliminate f from the first of the equations, giving
+
+u=y?u/?y
+
+which has the general solution u=yf(x).
+
+One can construct more complicated examples. Consider
+
+u(x,y)=f(x+y)+g(x?y)
+
+which gives on double differentiation
+
+?2u/?x2??2u/?y2=0.
+
+The problem is that without additional conditions the arbitrariness in the solutions makes it almost useless (if possible) to write down the general solution. We need additional conditions, that reduce this freedom. In most physical problems these are boundary conditions, that describes how the system behaves on its boundaries (for all times) and initial conditions, that specify the state of the system for an initial time  t=0 . In the ODE problem discussed before we have two initial conditions (velocity and position at time  t=0 ).
+
+ </p>
+                </div>
+                </div>
+            
+            
+           
             </div>            </div><h6 class="text-right mt-5">Contributor Info</h6>
             <hr class="divider mr-0">
             <div class="row" id="contributor-info">
