@@ -33,7 +33,7 @@ let suggestions = [
 "business-combination(stock-exchange)",
 "causes(stock-exchange)",
 "business-combination-types(stock-exchange)",
-"effects-of-combination-in-india.",
+"effects-of-combination-in-india",
 "trade-association",
 "chamber-of-commerce",
 "functions",
