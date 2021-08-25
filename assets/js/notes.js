@@ -29,20 +29,20 @@ inputBox.onkeyup = (e) => {
             //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
 
             // return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
-            return data.toLocaleLowerCase().match(userData.toLocaleLowerCase());
+            return splitText(data).toLocaleLowerCase().match(userData.toLocaleLowerCase());
         });
 
         //for passing data
         passArray = emptyArray.map((data) => {
             // passing return data inside li tag
-            return data;
+            return appendText(data);
 
         });
 
         emptyArray = emptyArray.map((data) => {
             // passing return data inside li tag
 
-            return data = '<li id="listName">' + data + '</li>';
+            return data = '<li id="listName">' + splitText(data) + '</li>';
 
         });
 
@@ -62,7 +62,7 @@ function select(element) {
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = () => {
-        webLink = "https://www.notesminute.com/topics/" + selectData + '/?search=' + selectData;
+        webLink = "https://www.notesminute.com/topics/" + appendText(selectData) + '/?search=' + appendText(selectData);
         // var webLink = "http://127.0.0.1:8887/search/?search=" + encodeURIComponent($("#txtName").val()) + "&list=" + encodeURIComponent(passArray);
         linkTag.setAttribute("href", webLink);
         linkTag.click();
@@ -81,6 +81,40 @@ function showSuggestions(list) {
         listData = list.join('');
     }
     suggBox.innerHTML = listData;
+}
+
+function splitText(list) {
+    try {
+        var words = list;
+        var delitterTextBox = '-';
+        var lines = words.split(delitterTextBox);
+        var replaceCharacter = " ";
+        for (var i = 0; i < lines.length; i++) {
+            if (lines[i] != "") {
+                words = words.replace(delitterTextBox, replaceCharacter);
+            }
+        }
+        return words;
+    } catch (e) {
+        // console.log("Error: " + e.message);
+    }
+}
+
+function appendText(list) {
+    try {
+        var words = list;
+        var delitterTextBox = ' ';
+        var lines = words.split(delitterTextBox);
+        var replaceCharacter = "-";
+        for (var i = 0; i < lines.length; i++) {
+            if (lines[i] != "") {
+                words = words.replace(delitterTextBox, replaceCharacter);
+            }
+        }
+        return words;
+    } catch (e) {
+        // console.log("Error: " + e.message);
+    }
 }
 
 
