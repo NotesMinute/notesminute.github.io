@@ -1,4 +1,6 @@
 let suggestions = [
+"laplace-equation(laplace)",
+"delta-function-(laplace-transform)",
 "fundamental-operations-with-complex-analysis(associative)",
 "fundamental-operations-with-complex-analysis(commutative-law-for-addition)",
 "fundamental-operations-with-complex-analysis(distributive-law-for-addition)",
