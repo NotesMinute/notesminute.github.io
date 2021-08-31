@@ -1,4 +1,6 @@
 let suggestions = [
+"polyhedra",
+"integer-programming(optimization)",
 "laplace-equation(laplace)",
 "delta-function-(laplace-transform)",
 "fundamental-operations-with-complex-analysis(associative)",
