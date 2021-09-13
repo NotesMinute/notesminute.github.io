@@ -1179,7 +1179,7 @@ let suggestions = [
 "left-hand-limit-of-f(x)",
 "right-hand-limit-of-f(x)",
 "linear-function",
-"limit-at",
+"limit-at-infinity",
 "riemann-sum",
 "inverse-function",
 "antiderivative",
