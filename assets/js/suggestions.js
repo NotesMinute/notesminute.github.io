@@ -1706,7 +1706,6 @@ let suggestions = [
 "continuity",
 "differentiability",
 "c-r-equation",
-"1.polar-form-of-c-r-equation",
 "entire-function",
 "geometric-representation-of-complex-plane",
 "complex-conjugate-number",
