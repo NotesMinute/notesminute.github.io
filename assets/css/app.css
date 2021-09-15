@@ -598,44 +598,80 @@ textarea {
 }
 
 
-.items div
-            {
-/*                border: 1px solid gray;
+.items div {
+    /*                border: 1px solid gray;
                 margin: 5px;
                 padding: 10px;
-*/            }
+*/
+}
 
-            .pager div
-            {
-                float: left;
-                border: 1px solid gray;
-                margin: 5px;
-                padding: 10px;
-            }
+.pager div {
+    float: left;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 10px;
+}
 
-            .pager div.disabled
-            {
-                opacity: 0.25;
-            }
+.pager div.disabled {
+    opacity: 0.25;
+}
 
-            .pager .pageNumbers a
-            {
-                display: inline-block;
-                padding: 0 10px;
-                color: gray;
-            }
+.pager .pageNumbers a {
+    display: inline-block;
+    padding: 0 10px;
+    color: gray;
+}
 
-            .pager .pageNumbers a.active
-            {
-                color: orange;
-            }
+.pager .pageNumbers a.active {
+    color: orange;
+}
 
-            .pager
-            {
-                overflow: hidden;
-            }
+.pager {
+    overflow: hidden;
+}
 
-            .paginate-no-scroll .items div
-            {
-                height: 250px;
-            }
+.paginate-no-scroll .items div {
+    height: 250px;
+}
+
+/*
+    Error page CSS
+*/
+
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    font-family: 'Arvo', serif;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+
+    background-image: url("../img/404/error.gif");
+    height: 400px;
+    background-position: center;
+}
+
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
+
+.link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.contant_box_404 {
+    margin-top: -50px;
+}
