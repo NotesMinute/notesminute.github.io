@@ -485,4 +485,39 @@
         "end-of-intern": "",
         "orderby": "D"
     }
+    ,
+    {
+        "reg-no": "",
+        "name": "Aswathaman",
+        "dept": "BSC Visual Communication",
+        "clg": "",
+        "linkedin_url": "https://www.linkedin.com/in/aswathaman-tamilselvan-613481204/",
+        "intern_category": "Bronze",
+        "start-of-intern": "",
+        "end-of-intern": "",
+        "orderby": "E"
+    }
+    ,
+    {
+        "reg-no": "",
+        "name": "K.Anitha",
+        "dept": "MBA",
+        "clg": "",
+        "linkedin_url": "https://www.linkedin.com/in/anitha-nataraj-146b58202",
+        "intern_category": "Bronze",
+        "start-of-intern": "",
+        "end-of-intern": "",
+        "orderby": "E"
+    },
+    {
+        "reg-no": "",
+        "name": "Prasanna Kumar J",
+        "dept": "BBA-INDUSTRY INTERGRATED",
+        "clg": "",
+        "linkedin_url": "https://www.linkedin.com/in/prasanna-j-bbb50b220",
+        "intern_category": "Bronze",
+        "start-of-intern": "",
+        "end-of-intern": "",
+        "orderby": "E"
+    }
 ]
