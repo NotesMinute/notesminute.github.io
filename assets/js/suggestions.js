@@ -1,3 +1,7 @@
+  /*
+	   List topic folder name for search suggestion
+
+  */
 let suggestions = [
 "inversion-of-be(the-farlex-grammar-book-by-peter-herring)",
 "forming-interrogative-sentences-with-subject-verb-inversion",
