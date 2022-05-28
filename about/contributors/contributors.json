@@ -23,14 +23,11 @@
     },
     {
         "reg-no": "",
-        "name": "Abirami V",
-        "dept": "BCA",
+        "name": "Abirami V","dept": "BCA",
         "clg": "",
         "linkedin_url": "https://www.linkedin.com/in/abirami-abi-06b349215/",
         "intern_category": "Bronze",
-        "start-of-intern": "",
-        "end-of-intern": "",
-        "orderby": "E"
+        "start-of-intern": "", "end-of-intern": "", "orderby": "E"
     },
     {
         "reg-no": "",
@@ -541,5 +538,35 @@
         "start-of-intern": "",
         "end-of-intern": "",
         "orderby": "C"
-    }
+    },
+{"reg-no": "","name":"AARTHI .A","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/aarthi-a-9101a723b","intern_category":"Bronze ","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"ADDLIN JOTHI.R","dept": "MATHEMATICS","linkedin_url":"","intern_category":"Bronze ","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"ANANDHASHANKAR. T","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/anandha-shankar-79a44423b","intern_category":"Bronze ","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"ANJU KRISHNAN","dept": "MATHEMATICS","linkedin_url":"http://linkedin.com/in/anjali-krishnan-a30059240","intern_category":"Bronze ","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"DHANUSH RAAM.M","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/dhanushraam-murugan-5a6b1b23a","intern_category":"Bronze ","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"DIVYADHARSHINI.G A","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/divyadharshini-g-a-119a18227","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"HEMALATHA.M","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/hemalatha-m-a13362240","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"HAREESH KUMAR.S L","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/hareesh-kumar-s-l-msc-maths-2a476823b","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"HARISHNAA.M","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/harishnaa-m-45495623a","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"JANANI.P","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/janani-p-03639723b","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"JYOTHIPRABHA.A S","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/jyothiprabha-a-s-msc-maths-31a60923b","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"KAVIN.M","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/kavin-m-13805623b","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"MAHALAKSHMI.A","dept": "MATHEMATICS","linkedin_url":"","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"MANIKANDAN.P","dept": "MATHEMATICS","linkedin_url":"","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"MANOJ KUMAR.M","dept": "MATHEMATICS","linkedin_url":"","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"MERLINVINOLA. M","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/merlinvinola-m-msc-maths-03335623b","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"MOHAMMEDANAS.S","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/mohammedanas-s-28540a23b","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"MOHANRAJ.D","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/mohan-raj-62a11123b","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"MONIKAA .K","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/monikaa-k-msc-maths-99450723b","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"MUKILAN.S","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/mukilan-sekar-6104261a9","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"NIKITHA.R","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/nikitha-r-9a76b223a","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"NIVETHA.V","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/nivetha-v-0a3796231","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"SAKTHIUMAMAHESWARI.S","dept": "MATHEMATICS","linkedin_url":"","intern_category":"Silver","start-of-intern": "", "end-of-intern": "", "orderby":"D"},
+{"reg-no": "","name":"SAM DANIEL.S","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/sam-daniel-395242172","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"SANDHIYA.S","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/sandhiya-s-4a54a9226","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"SOWNDARYA.S","dept": "MATHEMATICS","linkedin_url":"http://www.linkedin.com/in/sowndarya-siva-a3618923b","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"VARSHINIPRIYA. M","dept": "MATHEMATICS","linkedin_url":"http://www.linkedin.com/in/varshinipriya-m-ab580721b","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"VENKATESHVARAN.D","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/venkateshvaran-d-379360240","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"VIGNESH.P","dept": "MATHEMATICS","linkedin_url":"https://www.linkedin.com/in/vignesh-p-84aa3123a","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"},
+{"reg-no": "","name":"YAMUNA SRI .U S","dept": "MATHEMATICS","linkedin_url":"www.linkedin.com/in/yamuna-sri-u-s-59501723b","intern_category":"Bronze","start-of-intern": "", "end-of-intern": "", "orderby":"E"}
 ]
